@@ -4,7 +4,6 @@ import javax.swing.JFrame;
 import java.awt.*;
 
 import com.main.*;
-import com.requirements.Requirements;
 import com.studio.util.*;
 import java.awt.event.KeyEvent;
 
@@ -22,7 +21,6 @@ public class Window extends JFrame implements Runnable
 
     public Window()
     {
-        Requirements.meetRequirements();
         this.mouseListener = new ML();
         this.keyListener = new KL();
         this.setSize((int)(Constants.SCREEN_WIDTH * Constants.SCALE), (int)(Constants.SCREEN_HEIGHT * Constants.SCALE));

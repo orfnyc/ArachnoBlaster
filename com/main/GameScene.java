@@ -57,7 +57,7 @@ public class GameScene extends Scene
         enemies = new ArrayList<>();
         powerups = new ArrayList<>();
         levels = new LevelMap[11];
-        levels[0] = new LevelMap("assets/level6.txt");
+        levels[0] = new LevelMap("assets/level1.txt");
         levels[1] = new LevelMap("assets/level2.txt");
         levels[2] = new LevelMap("assets/level3.txt");
         levels[3] = new LevelMap("assets/level4.txt");
